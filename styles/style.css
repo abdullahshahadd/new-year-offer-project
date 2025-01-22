@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+
+.inter-font {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+
+/* header styles */
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), 
+                url(../images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 110px;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;  */
+}
+
+.header-greeting-title {
+    margin-bottom: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.header-main-title1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.header-main-title2 {
+    font-size: 50px;
+    margin-top: 0;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+/* main styles */
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-offer {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #FF0000;
+    margin-bottom: 0;
+}
+
+.sub-offer {
+    font-size: 20px;
+    color: #FF0000;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+
+.offer-category {
+    font-size: 40px;
+    margin-top: 16px;
+}
+
+.offer-image {
+    width: 800px;
+    height: 500px;
+}
